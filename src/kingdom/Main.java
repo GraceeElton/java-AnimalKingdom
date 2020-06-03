@@ -96,7 +96,7 @@ public class Main
 		 filterAnimals(animalList, a -> a.breath().equals("Lungs") && a.birth().equals("Eggs"), true);
 
 
-		 //
+		 // this is wild man!
 		 System.out.println("\n ***  List alphabetically only those animals that were named in 1758");
 		 animalList.sort(Comparator.comparing( o -> o.getName()));
 		 filterAnimals(animalList, a -> a.getYear() == 1758, true);
